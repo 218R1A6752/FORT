@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Download, Eye } from 'lucide-react';
 import { Template } from '../data/templates';
 import Modal from './Modal';
@@ -19,7 +19,7 @@ export default function TemplateCard({ template }: TemplateCardProps) {
       >
         <div className="relative group">
           <img
-            src={template.image}
+            src={`${import.meta.env.BASE_URL}${template.image}`}
             alt={template.name}
             className="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-105"
           />
@@ -46,7 +46,7 @@ export default function TemplateCard({ template }: TemplateCardProps) {
               View Template
             </button>
             <a
-              href={template.downloadUrl}
+              href={`${import.meta.env.BASE_URL}${template.downloadUrl}`}
               className="inline-flex items-center px-5 py-2.5 rounded-xl text-white bg-gradient-to-r from-primary-600 to-primary-500 hover:from-primary-700 hover:to-primary-600 transition-all duration-300 shadow-lg shadow-primary-600/20 hover:shadow-primary-600/40"
             >
               <Download className="h-4 w-4 mr-2" />

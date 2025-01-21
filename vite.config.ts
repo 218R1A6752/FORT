@@ -7,5 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
- // base: '/Resume-Forge/', // Add this line
+ base: '/FORT/', // Add this line
 });

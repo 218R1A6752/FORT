@@ -1,4 +1,3 @@
-import React from 'react';
 import { Download, Layout, Zap, CheckCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { templates } from '../data/templates';

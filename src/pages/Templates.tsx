@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import { templates } from '../data/templates';
 import TemplateCard from '../components/TemplateCard';
 
