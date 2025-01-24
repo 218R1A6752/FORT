@@ -6,6 +6,7 @@ export interface Template {
   description: string;
   featured: boolean;
   category: string;
+  price: string;
 }
 
 export const templates: Template[] = [
@@ -16,7 +17,8 @@ export const templates: Template[] = [
     downloadUrl: "/Assets/Documents/Modern_resume.docx",
     description: "Sophisticated design for senior professionals",
     featured: true,
-    category: "Professional"
+    category: "Professional",
+    price: "$9.99"
   },
   {
     id: 2,
@@ -25,7 +27,8 @@ export const templates: Template[] = [
     downloadUrl: "/Assets/Documents/Hybrid-Modern-Resume-Template-Blue.docx",
     description: "Contemporary layout with striking typography",
     featured: true,
-    category: "Modern"
+    category: "Modern",
+    price: "$9.99"
   },
   {
     id: 3,
@@ -34,7 +37,8 @@ export const templates: Template[] = [
     downloadUrl: "/Assets/Documents/Creative_Edge.docx",
     description: "Stand out with this bold yet professional design",
     featured: false,
-    category: "Creative"
+    category: "Creative",
+    price: "$9.99"
   },
   {
     id: 4,
@@ -43,7 +47,8 @@ export const templates: Template[] = [
     downloadUrl: "/Assets/Documents/Resume_template.docx",
     description: "Clean and elegant design for all professionals",
     featured: true,
-    category: "Minimalist"
+    category: "Minimalist",
+    price: "$9.99"
   },
   {
     id: 5,
@@ -52,7 +57,8 @@ export const templates: Template[] = [
     downloadUrl: "/Assets/Documents/Tech_Innovator.docx",
     description: "Perfect for IT and tech professionals",
     featured: false,
-    category: "Technology"
+    category: "Technology",
+    price: "$9.99"
   },
   {
     id: 6,
@@ -61,7 +67,8 @@ export const templates: Template[] = [
     downloadUrl: "/Assets/Documents/Graduate_essentials.docx",
     description: "Ideal for recent graduates and entry-level positions",
     featured: false,
-    category: "Entry Level"
+    category: "Entry Level",
+    price: "$9.99"
   },
   {
     id: 7,
@@ -70,7 +77,8 @@ export const templates: Template[] = [
     downloadUrl: "/Assets/Documents/Creative_portfolio.docx",
     description: "Showcase your creative work with style",
     featured: false,
-    category: "Creative"
+    category: "Creative",
+    price: "$9.99"
   },
   {
     id: 8,
@@ -79,7 +87,8 @@ export const templates: Template[] = [
     downloadUrl: "/Assets/Documents/Executive_Brief.docx",
     description: "Concise and powerful format for executives",
     featured: true,
-    category: "Professional"
+    category: "Professional",
+    price: "$9.99"
   }
   
 ];

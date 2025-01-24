@@ -27,7 +27,7 @@ export default function Modal({ isOpen, onClose, children }: ModalProps) {
   }, [isOpen, onClose]);
 
   if (!isOpen) return null;
-
+//used to handel the click event on background
   const handleBackdropClick = (e: React.MouseEvent) => {
     if (e.target === e.currentTarget) {
       onClose();
